@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aprende a reconocer el phishing, ransomware, gusanos informáticos, spyware y adware. Consejos de prevención y herramientas de seguridad digital.">
+  <meta name="theme-color" content="#11263f">
+  <title>Conciencia sobre la Ciberseguridad | Guía básica</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="inicio">
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Conciencia sobre la Ciberseguridad, volver al inicio">
+        <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2.7 20 6v5.7c0 5.2-3.1 8.4-8 10-4.9-1.6-8-4.8-8-10V6l8-3.3Z"/>
+            <path d="m8.8 12 2.2 2.2 4.6-4.7"/>
+          </svg>
+        </span>
+        <span>Conciencia <strong>Digital</strong></span>
+      </a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a class="nav-link" href="#phishing">Phishing</a>
+        <a class="nav-link" href="#ransomware">Ransomware</a>
+        <a class="nav-link" href="#gusano">Gusanos</a>
+        <a class="nav-link" href="#spyware">Spyware</a>
+        <a class="nav-link" href="#adware">Adware</a>
+        <a class="nav-link nav-link-special" href="#herramientas">Herramientas</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" aria-labelledby="titulo-principal">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> GUÍA BÁSICA DE SEGURIDAD DIGITAL</span>
+          <h1 id="titulo-principal">Conciencia sobre la <span>ciberseguridad</span></h1>
+          <p class="hero-lead">En esta página encontrarás información relevante sobre algunas de las amenazas informáticas más frecuentes que pueden afectar a tu equipo. Conocerás sus nombres, características y de qué manera pueden perjudicarte.</p>
+          <p class="hero-note">Recuerda: nadie está completamente exento de sufrir una infección o un ciberataque.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#amenazas">Conocer las amenazas <span aria-hidden="true">↓</span></a>
+            <a class="button button-outline" href="#herramientas">Ver herramientas de seguridad</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="illustration-card">
+            <div class="illustration-topline"><span class="small-dot"></span><span class="small-dot"></span><span class="small-dot"></span><span class="illustration-bar"></span></div>
+            <div class="illustration-center">
+              <div class="illustration-shield">
+                <svg viewBox="0 0 100 112" fill="none"><path d="M50 5 91 22v31c0 26-15 43-41 54C24 96 9 79 9 53V22L50 5Z" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/><path d="m30 55 13 13 28-30" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="illustration-label">TU SEGURIDAD IMPORTA</div>
+              <div class="illustration-subtitle">Aprende · Identifica · Protégete</div>
+            </div>
+            <div class="illustration-bottom"><span>● Protección de datos</span><span class="illustration-status">INFORMACIÓN</span></div>
+          </div>
+          <span class="floating-chip chip-one">Privacidad</span>
+          <span class="floating-chip chip-two">Prevención</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="amenazas" class="overview section-space" aria-labelledby="amenazas-titulo">
+      <div class="container">
+        <div class="section-intro">
+          <span class="eyebrow">IDENTIFICA LOS RIESGOS</span>
+          <h2 id="amenazas-titulo">Amenazas que debes conocer</h2>
+          <p>Estas cinco amenazas pueden afectar tu información, privacidad o dispositivo. Selecciona una para conocer sus características y cómo prevenirla.</p>
+          <p class="definition-note"><strong>Importante:</strong> en el lenguaje cotidiano se les suele llamar «virus», pero no todas son virus informáticos. Algunas son tipos de malware y otras, como el phishing, son técnicas de engaño.</p>
+        </div>
+        <div class="overview-grid">
+          <a class="overview-card" href="#phishing"><span class="overview-icon icon-blue" aria-hidden="true">✉</span><span class="overview-number">01</span><strong>Phishing</strong><span>Mensajes y sitios falsos que buscan engañarte.</span><span class="card-arrow" aria-hidden="true">↗</span></a>
+          <a class="overview-card" href="#ransomware"><span class="overview-icon icon-red" aria-hidden="true">🔒</span><span class="overview-number">02</span><strong>Ransomware</strong><span>Bloqueo de archivos y exigencia de un pago.</span><span class="card-arrow" aria-hidden="true">↗</span></a>
+          <a class="overview-card" href="#gusano"><span class="overview-icon icon-violet" aria-hidden="true">◈</span><span class="overview-number">03</span><strong>Gusano informático</strong><span>Malware capaz de propagarse por sí mismo.</span><span class="card-arrow" aria-hidden="true">↗</span></a>
+          <a class="overview-card" href="#spyware"><span class="overview-icon icon-teal" aria-hidden="true">◉</span><span class="overview-number">04</span><strong>Spyware</strong><span>Software que recopila información sin permiso.</span><span class="card-arrow" aria-hidden="true">↗</span></a>
+          <a class="overview-card" href="#adware"><span class="overview-icon icon-orange" aria-hidden="true">▣</span><span class="overview-number">05</span><strong>Adware</strong><span>Publicidad invasiva y cambios inesperados.</span><span class="card-arrow" aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="threat-background">
+      <section id="phishing" class="threat-section" aria-labelledby="phishing-titulo">
+        <div class="container threat-grid">
+          <div class="threat-main">
+            <span class="threat-kicker"><span class="threat-index">01</span> ENGAÑO DIGITAL</span>
+            <h2 id="phishing-titulo">Phishing</h2>
+            <p>El <strong>phishing</strong> es un ciberataque en el que los delincuentes engañan a las personas para que revelen información confidencial, como números de tarjetas de crédito, nombres, fechas de nacimiento o contraseñas, mediante correos electrónicos, mensajes de texto, llamadas telefónicas o páginas web falsas.</p>
+            <p>Los atacantes suelen hacerse pasar por bancos, tiendas, instituciones o personas conocidas para ganarse tu confianza. En ocasiones, te piden actuar de inmediato con mensajes como «Tu cuenta será bloqueada».</p>
+            <div class="read-more">Si deseas saber más, consulta <a href="https://www.ibm.com/mx-es/think/topics/phishing" target="_blank" rel="noopener noreferrer">¿Qué es el phishing? — IBM <span aria-hidden="true">↗</span></a>.</div>
+          </div>
+          <aside class="threat-aside" aria-label="Señales y prevención del phishing">
+            <div class="aside-block"><h3>¿Cómo puede afectarte?</h3><p>Puede provocar robo de cuentas, fraudes bancarios, suplantación de identidad o descargas de programas maliciosos.</p></div>
+            <div class="aside-divider"></div>
+            <div class="aside-block"><h3>¿Cómo prevenirlo?</h3><ul><li>Revisa la dirección del remitente y los enlaces antes de abrirlos.</li><li>No compartas contraseñas ni códigos de verificación.</li><li>Activa la autenticación en dos pasos siempre que sea posible.</li></ul></div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="ransomware" class="threat-section" aria-labelledby="ransomware-titulo">
+        <div class="container threat-grid">
+          <div class="threat-main">
+            <span class="threat-kicker"><span class="threat-index">02</span> SECUESTRO DE ARCHIVOS</span>
+            <h2 id="ransomware-titulo">Ransomware</h2>
+            <p>El <strong>ransomware</strong> es una forma de malware que bloquea al usuario el acceso a sus archivos o dispositivo y después exige un pago para intentar restaurar el acceso. Los atacantes pueden dirigirse tanto a empresas y organizaciones como a personas particulares.</p>
+            <p>Algunas variantes cifran fotografías, documentos y bases de datos; otras también amenazan con divulgar información robada. <strong>Pagar el rescate no garantiza recuperar los archivos.</strong></p>
+            <div class="read-more">Si deseas saber más, consulta <a href="https://www.ibm.com/mx-es/think/topics/ransomware" target="_blank" rel="noopener noreferrer">¿Qué es el ransomware? — IBM <span aria-hidden="true">↗</span></a>.</div>
+          </div>
+          <aside class="threat-aside" aria-label="Señales y prevención del ransomware">
+            <div class="aside-block"><h3>¿Cómo puede afectarte?</h3><p>Puedes perder temporalmente el acceso a información importante, interrumpir tus actividades o exponerte al robo de datos.</p></div>
+            <div class="aside-divider"></div>
+            <div class="aside-block"><h3>¿Cómo prevenirlo?</h3><ul><li>Realiza copias de seguridad periódicas, preferentemente desconectadas del equipo.</li><li>Mantén actualizado el sistema operativo y tus programas.</li><li>No descargues archivos adjuntos de remitentes sospechosos.</li></ul></div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="gusano" class="threat-section" aria-labelledby="gusano-titulo">
+        <div class="container threat-grid">
+          <div class="threat-main">
+            <span class="threat-kicker"><span class="threat-index">03</span> PROPAGACIÓN AUTOMÁTICA</span>
+            <h2 id="gusano-titulo">Gusano informático</h2>
+            <p>Un <strong>gusano informático</strong> es un tipo de malware que puede propagarse o autorreplicarse de una computadora a otra sin necesidad de intervención humana una vez que encuentra una vía de acceso. A diferencia de un virus tradicional, no necesita adherirse a otro archivo para reproducirse.</p>
+            <p>Los gusanos informáticos suelen propagarse a través de redes, correos electrónicos de phishing, vulnerabilidades de software, plataformas para compartir archivos, redes sociales e incluso memorias USB.</p>
+            <p>Algunos gusanos consumen recursos del equipo, ralentizan las redes, eliminan archivos o facilitan la instalación de otras amenazas.</p>
+            <div class="read-more">Si deseas saber más, consulta <a href="https://www.malwarebytes.com/es/computer-worm" target="_blank" rel="noopener noreferrer">¿Qué es un gusano informático? — Malwarebytes <span aria-hidden="true">↗</span></a>.</div>
+          </div>
+          <aside class="threat-aside" aria-label="Señales y prevención de los gusanos informáticos">
+            <div class="aside-block"><h3>¿Cómo puede afectarte?</h3><p>Tu equipo puede funcionar lentamente, mostrar errores o contribuir sin saberlo a la propagación del malware por una red.</p></div>
+            <div class="aside-divider"></div>
+            <div class="aside-block"><h3>¿Cómo prevenirlo?</h3><ul><li>Instala actualizaciones de seguridad.</li><li>Analiza las memorias USB y evita conexiones desconocidas.</li><li>Usa protección antimalware y evita archivos sospechosos.</li></ul></div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="spyware" class="threat-section" aria-labelledby="spyware-titulo">
+        <div class="container threat-grid">
+          <div class="threat-main">
+            <span class="threat-kicker"><span class="threat-index">04</span> ESPIONAJE DE INFORMACIÓN</span>
+            <h2 id="spyware-titulo">Spyware</h2>
+            <p>El <strong>spyware</strong>, también llamado software espía, es un tipo de malware que se instala de manera oculta en tu dispositivo para recopilar información, como la actividad de navegación, las contraseñas y los datos de pago. Suele funcionar silenciosamente en segundo plano y puede ser difícil de detectar o eliminar.</p>
+            <p>El software espía puede propagarse a través de vulnerabilidades de seguridad, phishing, descargas engañosas, paquetes de software, troyanos y aplicaciones móviles maliciosas.</p>
+            <p>En algunos casos, puede registrar lo que escribes en el teclado o recopilar información privada sin tu autorización.</p>
+            <div class="read-more">Si deseas saber más, consulta <a href="https://www.malwarebytes.com/es/spyware" target="_blank" rel="noopener noreferrer">¿Qué es el spyware? — Malwarebytes <span aria-hidden="true">↗</span></a>.</div>
+          </div>
+          <aside class="threat-aside" aria-label="Señales y prevención del spyware">
+            <div class="aside-block"><h3>¿Cómo puede afectarte?</h3><p>Compromete tu privacidad y puede facilitar el robo de contraseñas, datos bancarios o información personal.</p></div>
+            <div class="aside-divider"></div>
+            <div class="aside-block"><h3>¿Cómo prevenirlo?</h3><ul><li>Descarga programas únicamente de sitios oficiales.</li><li>Revisa los permisos de las aplicaciones.</li><li>Ejecuta análisis de seguridad con herramientas confiables.</li></ul></div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="adware" class="threat-section" aria-labelledby="adware-titulo">
+        <div class="container threat-grid">
+          <div class="threat-main">
+            <span class="threat-kicker"><span class="threat-index">05</span> PUBLICIDAD INVASIVA</span>
+            <h2 id="adware-titulo">Adware</h2>
+            <p>El <strong>adware</strong> es un tipo de software que muestra anuncios no deseados y, en ocasiones, se instala sin que el usuario lo advierta. Algunas variantes se consideran software no deseado o malicioso, especialmente cuando modifican la navegación o recopilan datos sin autorización.</p>
+            <p>Entre los indicios preocupantes de su presencia se encuentran los anuncios excesivos, las páginas que se muestran incorrectamente, las ventanas emergentes constantes y los cambios inesperados en el navegador.</p>
+            <p>También puede instalarse junto con aplicaciones gratuitas o mediante descargas engañosas.</p>
+            <div class="read-more">Si deseas saber más, consulta <a href="https://www.malwarebytes.com/es/adware" target="_blank" rel="noopener noreferrer">¿Qué es el adware? — Malwarebytes <span aria-hidden="true">↗</span></a>.</div>
+          </div>
+          <aside class="threat-aside" aria-label="Señales y prevención del adware">
+            <div class="aside-block"><h3>¿Cómo puede afectarte?</h3><p>Puede dificultar el uso del navegador, reducir el rendimiento del dispositivo o exponerte a sitios inseguros.</p></div>
+            <div class="aside-divider"></div>
+            <div class="aside-block"><h3>¿Cómo prevenirlo?</h3><ul><li>Evita descargas desde páginas desconocidas.</li><li>Lee las opciones de instalación y rechaza programas adicionales que no necesitas.</li><li>Revisa y elimina extensiones sospechosas del navegador.</li></ul></div>
+          </aside>
+        </div>
+      </section>
+    </div>
+
+    <section id="herramientas" class="tools-section section-space" aria-labelledby="herramientas-titulo">
+      <div class="container">
+        <div class="section-intro">
+          <span class="eyebrow">RECURSOS DE PROTECCIÓN</span>
+          <h2 id="herramientas-titulo">Herramientas que pueden ayudarte</h2>
+          <p>Estos son dos servicios de seguridad conocidos y una plataforma de análisis que puedes consultar. Ninguna herramienta garantiza una protección absoluta; también es importante mantener buenos hábitos digitales.</p>
+        </div>
+        <div class="tools-grid">
+          <article class="tool-card">
+            <div class="tool-icon tool-icon-green" aria-hidden="true">K</div>
+            <span class="tool-tag">SEGURIDAD Y ANTIVIRUS</span>
+            <h3>Kaspersky</h3>
+            <p>Ofrece soluciones de protección para dispositivos, con funciones de seguridad frente a distintas amenazas informáticas.</p>
+            <a class="tool-link" href="https://latam.kaspersky.com/" target="_blank" rel="noopener noreferrer">Visitar sitio oficial <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="tool-card">
+            <div class="tool-icon tool-icon-blue" aria-hidden="true">M</div>
+            <span class="tool-tag">SEGURIDAD Y ANTIMALWARE</span>
+            <h3>Malwarebytes</h3>
+            <p>Cuenta con herramientas para detectar, bloquear y eliminar diferentes tipos de malware y software no deseado.</p>
+            <a class="tool-link" href="https://www.malwarebytes.com/es/" target="_blank" rel="noopener noreferrer">Visitar sitio oficial <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="tool-card tool-card-featured">
+            <div class="tool-icon tool-icon-purple" aria-hidden="true">VT</div>
+            <span class="tool-tag">ANÁLISIS DE ARCHIVOS Y ENLACES</span>
+            <h3>VirusTotal</h3>
+            <p>Permite consultar archivos, enlaces y otros indicadores para ver si varios motores de seguridad detectan posibles amenazas.</p>
+            <a class="tool-link" href="https://www.virustotal.com/gui/home/upload" target="_blank" rel="noopener noreferrer">Analizar con VirusTotal <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+        <div class="privacy-callout" role="note"><span class="privacy-symbol" aria-hidden="true">!</span><p><strong>Antes de usar VirusTotal:</strong> no subas documentos privados, contraseñas ni archivos con información confidencial, ya que los archivos enviados pueden compartirse con investigadores y socios de seguridad. Un resultado sin detecciones tampoco garantiza que un archivo sea seguro.</p></div>
+      </div>
+    </section>
+
+    <section class="closing-section" aria-labelledby="cierre-titulo">
+      <div class="container closing-inner">
+        <div>
+          <span class="eyebrow eyebrow-light">TU MEJOR HERRAMIENTA ES LA PREVENCIÓN</span>
+          <h2 id="cierre-titulo">Pequeñas acciones, mayor seguridad.</h2>
+          <p>Actualiza tus dispositivos, protege tus contraseñas, haz copias de seguridad y desconfía de mensajes o descargas inesperadas.</p>
+        </div>
+        <a class="button button-primary" href="#inicio">Volver al inicio ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Conciencia sobre la Ciberseguridad</span>
+      <span>Información educativa para navegar con más seguridad.</span>
+    </div>
+  </footer>
+  <button class="back-to-top" type="button" aria-label="Volver al inicio" title="Volver al inicio">↑</button>
+</body>
+</html>
